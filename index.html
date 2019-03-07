@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="../css/game.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./ajaxSubmit.js"></script>
+
+</head>
+<body>
+    <!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
+    <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" /> 
+
+    <!-- Inline CSS based on choices in "Settings" tab -->
+    <style>.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: Arial, Helvetica, sans-serif; color: black}.bootstrap-iso form button, .bootstrap-iso form button:hover{color: white !important;} .asteriskField{color: red;}</style>
+    <button id="b1">AJAX get request</button>
+    <!-- HTML Form (wrapped in a .bootstrap-iso div) -->
+    <div class="bootstrap-iso">
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-md-6 col-sm-6 col-xs-12">
+        <form method="post">
+        <div class="form-group ">
+            <label class="control-label requiredField" for="text1">
+        FirstName
+        </label>
+        <input class="form-control" id="text1" name="text1" type="text"/>
+        </div>
+        <div class="form-group ">
+        <label class="control-label requiredField" for="text">
+        LastName
+        </label>
+        <input class="form-control" id="text" name="text" type="text"/>
+        </div>
+        <div class="form-group ">
+        <label class="control-label requiredField" for="text2">
+        LaptopType
+        </label>
+        <input class="form-control" id="text2" name="text2" type="text"/>
+        </div>
+        <div class="form-group ">
+        <label class="control-label requiredField" for="text3">
+        PlannedDate
+        </label>
+        <input class="form-control" id="text3" name="text3" type="text"/>
+        </div>
+        <div class="form-group ">
+        <label class="control-label requiredField" for="text4">
+        ActualDate
+        </label>
+        <input class="form-control" id="text4" name="text4" type="text"/>
+        </div>
+        <div class="form-group ">
+        <label class="control-label requiredField" for="text5">
+        DOB
+        </label>
+        <input class="form-control" id="text5" name="text5" type="text"/>
+        </div>
+        <div class="form-group ">
+        <label class="control-label requiredField" for="text6">
+        WiproEmail
+        </label>
+        <input class="form-control" id="text6" name="text6" type="text"/>
+        </div>
+        <div class="form-group ">
+        <label class="control-label requiredField" for="text7">
+        WiproID
+        </label>
+        <input class="form-control" id="text7" name="text7" type="text"/>
+        </div>
+        <div class="form-group ">
+        <label class="control-label requiredField" for="text8">
+        Aadhaar
+        </label>
+        <input class="form-control" id="text8" name="text8" type="text"/>
+        </div>
+        <div class="form-group ">
+        <label class="control-label requiredField" for="text9">
+        PhoneNumber
+        </label>
+        <input class="form-control" id="text9" name="text9" type="text"/>
+        </div>
+        <div class="form-group ">
+        <label class="control-label requiredField" for="text10">
+        Address
+        </label>
+        <input class="form-control" id="text10" name="text10" type="text"/>
+        </div>
+        <div class="form-group">
+        <div>
+        <button class="btn btn-primary " name="submit" type="submit">
+            Submit
+        </button>
+        </div>
+        </div>
+        </form>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
